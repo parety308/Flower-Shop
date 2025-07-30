@@ -9,33 +9,40 @@
 </head>
 
 <body class="bg-[#F5F8FF]">
-    <section class="banner">
-        <header class="mt-[30px]  ml-[150px] mr-[150px] ">
-            <nav class="flex  items-center  place-content-between ">
-                <div class="">
-                    <img src="logo.png" alt="">
-                </div>
-                <div class="flex gap-x-8">
-                    <a href="#">Home</a>
-                    <a href="#">Shop</a>
-                    <a href="#">About us</a>
-                    <a class="flex" href="#">Cart(561)</a>
-                </div>
-            </nav>
-            <div class=" flex  place-content-between  items-center  h-[400px] ">
-                <div class=" w-[550px]">
-                    <h1 class="text-[60px] font-bold font-serif">ALWAYS <span class="text-[#E95A08]">FRESH
-                            FLOWERS</span></h1>
-                    <p>Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to
-                        exotic blooms, we offer a
-                        wide variety of fresh flowers that are perfect for any occasion.</p>
-                </div>
-                <div class="">
-                    <img src="hero-flower.png" alt="">
-                </div>
-            </div>
-        </header>
-    </section>
+<section class="banner">
+  <header class="mt-8 px-4 lg:px-0">
+    <div class="mx-auto lg:mx-[150px]">
+      <nav class="flex items-center justify-between flex-wrap gap-4">
+        <div class="flex-shrink-0">
+          <img src="logo.png" alt="Logo" class="h-10 w-auto" />
+        </div>
+        <div class="flex items-center gap-x-6 flex-wrap">
+          <a href="#" class="whitespace-nowrap">Home</a>
+          <a href="#" class="whitespace-nowrap">Shop</a>
+          <a href="#" class="whitespace-nowrap">About us</a>
+          <a href="#" class="flex whitespace-nowrap">Cart(561)</a>
+        </div>
+      </nav>
+
+      <div class="flex flex-col md:flex-row justify-between items-center min-h-[400px] mt-10 gap-8">
+        <div class="w-full md:w-[55%]">
+          <h1 class="text-3xl sm:text-5xl font-bold font-serif mb-4">
+            ALWAYS <span class="text-[#E95A08]">FRESH FLOWERS</span>
+          </h1>
+          <p class="text-base sm:text-lg">
+            Indulge your senses with the beauty and fragrance of our fresh flower shop. From exotic blooms, we offer a wide variety of fresh flowers that are perfect for any occasion.
+          </p>
+        </div>
+
+        <div class="w-full md:w-[40%]">
+          <img src="hero-flower.png" alt="Flower Image" class="w-full h-auto" />
+        </div>
+      </div>
+    </div>
+  </header>
+</section>
+
+
     <main>
         <section class="card ">
             <div class=" mt-[120px] ml-[150px] mr-[150px] ">
@@ -46,7 +53,8 @@
                         From classic roses to exotic
                         blooms, we offer a wide variety of fresh.</p>
                 </div>
-                <div class="grid grid-cols-4 gap-x-8 gap-y-5 ">
+                <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-5">
+
                     <div class="text-center ">
                         <img class="w-full rounded-[13px]" src="sample-flower-image.png" alt="">
                         <h4>Lily Blossom</h4>
@@ -106,29 +114,43 @@
                 </div>
             </div>
         </section>
-        <section class="lover ">
-            <div class=" h-[500px] flex  mt-[120px] ml-[150px] mr-[150px] items-center place-content-between ">
-                <div class="h-[500px] w-[50%]">
-                    <img class=" h-full w-full " src="flower-store.png" alt="">
-                </div>
-                <img class="w-[290px] h-[290px] mt-[-410px] ml-[-180px]" src="trusted-badge.png" alt="">
+         <section class="lover px-4 lg:mx-[150px] mt-20">
+  <div class="flex flex-col lg:flex-row items-center gap-10">
 
-                <div class="  flex flex-col  w-[50%] items-center">
-                    <h1 class="text-[50px]">Flower & Plants Lover</h1>
-                    <ul class="list-disc">
-                        <li class="text-[22px]">Indulge your senses with the beauty and fragrance of our fresh flower
-                            shop.
-                            From classic roses to exotic blooms, we offer a wide variety of fresh.</li>
-                        <li class="text-[22px]">Indulge your senses with the beauty and fragrance of our fresh flower
-                            shop.
-                            From classic roses to exotic blooms, we offer a wide variety of fresh.</li>
-                        <li class="text-[22px]">Indulge your senses with the beauty and fragrance of our fresh flower
-                            shop.
-                            From classic roses to exotic blooms, we offer a wide variety of fresh.</li>
-                    </ul>
-                </div>
-            </div>
-        </section>
+    <div class="relative w-full lg:w-1/2 max-w-4xl">
+      <img
+        src="flower-store.png"
+        alt="Flower Store"
+        class="w-full h-auto object-cover rounded-lg"
+      />
+      <img
+        src="trusted-badge.png"
+        alt="Trusted Badge"
+        class="absolute top-0 right-0 w-[100px] sm:w-[130px] md:w-[150px] lg:w-[180px]"
+      />
+    </div>
+
+    <div class="w-full lg:w-1/2 flex flex-col items-start text-left px-2 sm:px-4">
+      <h1 class="text-3xl sm:text-4xl lg:text-5xl font-bold mb-4">Flower & Plants Lover</h1>
+      <ul class="list-disc pl-5 space-y-3 text-[18px] sm:text-[20px] lg:text-[22px] leading-relaxed">
+        <li>
+          Indulge your senses with the beauty and fragrance of our fresh flower
+          shop. From classic roses to exotic blooms, we offer a wide variety of fresh.
+        </li>
+        <li>
+          Indulge your senses with the beauty and fragrance of our fresh flower
+          shop. From classic roses to exotic blooms, we offer a wide variety of fresh.
+        </li>
+        <li>
+          Indulge your senses with the beauty and fragrance of our fresh flower
+          shop. From classic roses to exotic blooms, we offer a wide variety of fresh.
+        </li>
+      </ul>
+    </div>
+
+  </div>
+</section>
+
         <section class="deals  mt-[120px] ml-[150px] mr-[150px] max-h-[600px] ">
             <div class="flex flex-col text-center mb-[50px] items-center">
                 <h1 class="text-[50px]">Latest Deals</h1>
