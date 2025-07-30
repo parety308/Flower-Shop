@@ -142,62 +142,103 @@
 
             </div>
         </section>
-   <section class="deals mt-[120px] px-4 lg:mx-[150px] max-h-[600px]">
+        <section class="deals mt-[120px] px-4 lg:mx-[150px]">
   <div class="flex flex-col text-center mb-[50px] items-center">
     <h1 class="text-[50px]">Latest Deals</h1>
     <p class="w-full lg:w-1/2">
       Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.
     </p>
   </div>
-  <div class="flex flex-col lg:flex-row justify-center gap-4 max-h-[520px] w-full">
+
+  <div class="flex flex-col lg:flex-row justify-center gap-4 w-full">
+
+    
     <div class="flex flex-col gap-4 w-full lg:w-[45%]">
-      <img src="deal-ana.png" alt="Deal Ana" class="rounded-xl w-full h-[200px] object-cover" />
-      <img src="deal-bloom.png" alt="Deal Bloom" class="rounded-xl w-full h-[200px] object-cover" />
+
+      
+      <div class="relative h-[200px] w-full bg-cover bg-center rounded-xl" style="background-image: url('deal-ana.png');">
+        <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center">
+          <h2 class="text-white text-xl font-semibold mb-2">60% Off | Bloom Plant</h2>
+          <button class=" text-white px-4 py-2 rounded hover:bg-orange-700">Shop Now</button>
+        </div>
+      </div>
+
+     
+      <div class="relative h-[200px] w-full bg-cover bg-center rounded-xl" style="background-image: url('deal-bloom.png');">
+        <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center">
+          <h2 class="text-white text-xl font-semibold mb-2">30% Off | Ana  Plant</h2>
+          <button class=" text-white px-4 py-2 rounded hover:bg-orange-700">Shop Now</button>
+        </div>
+      </div>
+
     </div>
-    <img src="deal-zabo.png" alt="Deal Zabo" class="rounded-xl w-full lg:w-[55%] h-[410px] object-cover" />
+
+    
+    <div class="relative h-[410px] w-full lg:w-[55%] bg-cover bg-center rounded-xl" style="background-image: url('deal-zabo.png');">
+      <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center">
+        <h2 class="text-white text-2xl font-semibold mb-3">25% Off | Zabo Plant</h2>
+        <button class=" text-white px-6 py-2 rounded hover:bg-orange-700">Shop Now</button>
+      </div>
+    </div>
+
   </div>
 </section>
 
-        <section class="Bounch mt-[120px] ml-[150px] mr-[150px] mb-[120px]  ">
-            <div
-                class="flex justify-center items-center max-h-[500px] bg-[url('news-letter-bg.png')] bg-cover bg-center h-[400px]  w-full">
 
-                <div class=" w-[550px] h-[150px]">
-                    <h1 class="text-3xl text-center mb-[10px]">Join the colorful Bunch</h1>
-                    <input class="text-[24px] w-[80%] bg-white" type="email" name="" id="" placeholder="write email">
-                    <button class="text-[24px] bg-[#E95A08] hover:bg-blue-700 text-white text-center">Subscribe</button>
-                </div>
-            </div>
-        </section>
+<section class="Bounch mt-[120px] mb-[120px] px-4 lg:mx-[150px]">
+  <div class="flex justify-center items-center bg-[url('news-letter-bg.png')] bg-cover bg-center min-h-[400px] w-full py-8">
+    <div class="w-full max-w-[550px] flex flex-col items-center justify-center gap-4">
+      <h1 class="text-3xl text-center mb-[10px]">Join the colorful Bunch</h1>
+      
+      <div class="flex flex-col lg:flex-row items-center w-[80%] gap-4">
+        <input
+          class="text-[20px] flex-1 bg-white px-3 py-2 rounded w-full"
+          type="email"
+          placeholder="write email" />
+        <button
+          class="text-[20px] bg-[#E95A08] hover:bg-blue-700 text-white px-6 py-2 rounded whitespace-nowrap">
+          Subscribe
+        </button>
+      </div>
+      
+    </div>
+  </div>
+</section>
+
+
+
     </main>
     <footer>
-        <div class=" flex justify-center items-center  px-[150px] py-[10px]">
-            <div class=" flex flex-col w-[25%]">
-                <img src="logo.png" alt="" class="h-[100%] w-[100px]">
-                <p class="w-[50%]">Indulge your senses with the beauty and fragrance of our fresh flower shop. </p>
-            </div>
+<div class="flex flex-col lg:flex-row justify-center items-start lg:items-center px-4 lg:px-[150px] py-[10px] gap-6 lg:gap-0">
+  <div class="flex flex-col w-full lg:w-[25%]">
+    <img src="logo.png" alt="Logo" class="h-auto w-[100px] mb-2" />
+    <p class="w-full lg:w-1/2">Indulge your senses with the beauty and fragrance of our fresh flower shop.</p>
+  </div>
 
-            <div class=" flex flex-col w-[25%]  ">
-                <a src="#">Home</a>
-                <a src="#">About Us</a>
-                <a src="#">Blog</a>
-                <a src="#">FAQ</a>
-                <a src="#">Contact US</a>
-            </div>
-            <div class=" flex flex-col w-[25%] ">
-                <a src="#">Features</a>
-                <a src="#">Pricing</a>
-                <a src="#">Privacy Policy</a>
-                <a src="#">Terms of Service</a>
-                <a src="#">Help Center</a>
-            </div>
-            <div class="flex w-[25%] justify-center gap-8 ">
-                <img src="icon-linkedin.png" alt="" class="h-[35%] w-[15%]">
-                <img src="icon-twitter.png" alt="" class="h-[35%] w-[15%]">
-                <img src="icon-facebook.png" alt="" class="h-[35%] w-[15%]">
-                <img src="icon-youtube.png" alt="" class="h-[35%] w-[15%]">
-            </div>
-        </div>
+  <div class="flex flex-col w-full lg:w-[25%] space-y-1">
+    <a href="#">Home</a>
+    <a href="#">About Us</a>
+    <a href="#">Blog</a>
+    <a href="#">FAQ</a>
+    <a href="#">Contact US</a>
+  </div>
+
+  <div class="flex flex-col w-full lg:w-[25%] space-y-1">
+    <a href="#">Features</a>
+    <a href="#">Pricing</a>
+    <a href="#">Privacy Policy</a>
+    <a href="#">Terms of Service</a>
+    <a href="#">Help Center</a>
+  </div>
+
+  <div class="flex w-full lg:w-[25%] justify-left gap-8  lg:order-none mt-6 lg:mt-0">
+    <img src="icon-linkedin.png" alt="LinkedIn" class="h-[35px] w-[35px]" />
+    <img src="icon-twitter.png" alt="Twitter" class="h-[35px] w-[35px]" />
+    <img src="icon-facebook.png" alt="Facebook" class="h-[35px] w-[35px]" />
+    <img src="icon-youtube.png" alt="YouTube" class="h-[35px] w-[35px]" />
+  </div>
+</div>
+
     </footer>
 </body>
 
